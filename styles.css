@@ -1,0 +1,42 @@
+
+body{
+    background-color: bisque;
+}
+
+#nav{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    gap: 20%;
+}
+
+
+#main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;  
+    background-color: gray;
+
+}
+
+.bentoLayout{
+    border: 2px solid black;
+    height: 700px; 
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.innerBoxes{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
